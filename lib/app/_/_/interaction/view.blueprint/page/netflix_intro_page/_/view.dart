@@ -54,17 +54,15 @@ class NewViewState extends State<NewView> with StateMother {
                 color: Colors.grey,
               ),
               itemBuilder: (context) => [
-                    const PopupMenuItem(value: 1, child: Text('FAQs')),
-                    const PopupMenuItem(value: 2, child: Text('HELP'))
-                  ])
+                const PopupMenuItem(value: 1, child: Text('FAQs')),
+                const PopupMenuItem(value: 2, child: Text('HELP'))
+              ])
         ],
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
       body: Stack(children: [
         Container(
-          width: 100,
-          height: 100,
           decoration: const BoxDecoration(
             gradient: LinearGradient(colors: [
               Colors.black,
@@ -103,7 +101,7 @@ class NewViewState extends State<NewView> with StateMother {
                     color: Colors.white,
                     fontSize: 18,
                   ),
-                )),
+                )).padding(horizontal: 10),
             const SizedBox(height: 20),
           ],
         ),
