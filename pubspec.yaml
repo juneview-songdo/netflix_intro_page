@@ -1,7 +1,7 @@
 name: netflix_intro_page
-description: "Description here"
+description: "netflix intro page clone with flutter"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneview-songdo/netflix_intro_page
 
 version: 1.0.0+1
 
