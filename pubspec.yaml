@@ -3,7 +3,7 @@ description: "netflix intro page clone with flutter"
 #publish_to: 'none'
 repository: https://github.com/juneview-songdo/netflix_intro_page
 
-version: 1.0.1
+version: 1.0.3
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
